@@ -1,13 +1,14 @@
 // Your Code Here
 function start() {
-let fisrtAnswer = window.prompt('do you head right, or left?')
-if(fisrtAnswer === 'left') {
+let firstAnswer = window.prompt('do you head right, or left?')
+
+if(firstAnswer === 'left') {
     goLeft()
 }
-else if(fisrtAnswer === 'right') {
+else if(firstAnswer === 'right') {
       goRight()
     }
-    if(fisrtAnswer === 'start over'){
+    if(firstAnswer === 'start over'){
         start()
     }
 }
@@ -38,7 +39,7 @@ function follow(){
         window.alert(`You live happily with the cats forthe rest of your days`)
     }
     else if(thirdAnswer === 'spread the word'){
-        document.write(`After leaving the cat colony, you are never able to find it again. Without 
+        window.alert(`After leaving the cat colony, you are never able to find it again. Without 
         proof, no one believes your story, which passes onto legend nontheless`)
     }
     if(thirdAnswer === 'continue'){
@@ -55,7 +56,7 @@ function continueFoward(){
     lead up toward the light. Which do you take?`)
 
     if(fourthAnswer === 'ladder'){
-        document.write(`After ascending a few feet up the ladder, one of its rungs snap and you fall
+        window.alert(`After ascending a few feet up the ladder, one of its rungs snap and you fall
         comedically through each of the rungs below. Sheepishly, you return home.`)
     }
     else if(fourthAnswer === 'staircase'){
@@ -91,7 +92,7 @@ function pastDragon(){
         window.alert(`You and the dragon have an uplifting conversation about local politics and become lifelong friends.`)
     }
     else if(thirdAnswer === 'run'){
-        document.write(`Quickly, you run back to the cave's entrance. Sheepish, you return home.`)
+        window.alert(`Quickly, you run back to the cave's entrance. Sheepish, you return home.`)
     }
     if(thirdAnswer === 'start over'){
         start()
@@ -101,7 +102,7 @@ function pastDragon(){
 function awayDragon(){
     let fourthAnswer = window.prompt(`After walking a while longer, you come across a shiny blue flower. It is so beautiful that you decide you must either draw it or pick it. Which do you do?`)
     if(fourthAnswer === 'draw it'){
-        document.write(`You draw the flower, capturing only a fraction of its beauty with your quill. You bring the drawing home, somewhat disappointed, but over time discover joy in sharing the drawing with your friends and family, recounting the story of your days as a sorcerer with the aide of the sketch.`)
+        window.alert(`You draw the flower, capturing only a fraction of its beauty with your quill. You bring the drawing home, somewhat disappointed, but over time discover joy in sharing the drawing with your friends and family, recounting the story of your days as a sorcerer with the aide of the sketch.`)
     }
     else if(fourthAnswer === 'pick it'){
         window.alert(`You pick the flower and bring it home, and all marvel at its brilliance. However, over time it fades and eventually crumbles to dust.`)
